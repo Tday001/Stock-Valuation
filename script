@@ -85,7 +85,7 @@ def generate_report(metrics, dcf_valuation):
 
 def main():
     symbol = 'AAPL'
-    data = fetch_and_preprocess_data(symbol, '2017-01-01', '2022-01-01')
+    data = fetch_and_preprocess_data(symbol, '2017-01-01', '2024-01-01')
     financial_metrics = fetch_financial_metrics(symbol)
     visualize_data(data)
     
