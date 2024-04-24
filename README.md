@@ -1,5 +1,6 @@
 # Stock-Valuation
 Stock Valuation and Analysis Tool
+
 Description
 This project provides a comprehensive Python tool for financial analysis and stock valuation, integrating data fetching, processing, and modeling to assess the value of publicly traded companies. Utilizing historical stock data from Yahoo Finance via the yfinance library, the tool calculates key financial metrics, estimates the Weighted Average Cost of Capital (WACC), performs Discounted Cash Flow (DCF) valuation, and predicts future stock prices using an LSTM neural network model.
 
