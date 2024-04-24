@@ -17,7 +17,7 @@ def fetch_financial_metrics(symbol):
     stock = yf.Ticker(symbol)
     cash_flow = stock.cashflow.transpose().get("Free Cash Flow", pd.Series()).dropna()
 
-    # Ensuring there are enough data points and they are all positive
+    # 
     if len(cash_flow) > 1 and (cash_flow > 0).all():
         years = cash_flow.index.year.astype(float)
         values = cash_flow.values.astype(float)
